@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<title>Sweetbot</title>
+<meta name="viewport" content="width=divice-width, initial-scale=1.0">
+<link rel="stylesheet" href="blueberry.css"/>
+<link rel="stylesheet" href="styleme.css"/>
+<style type="text/css">
+</style>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+<script> 
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+</head>
+<body> 
+	<header> 
+		<a href="#" id="logo"><img src="Sweetbot perfect.png" alt=""/></a>
+	<nav>
+	<a id="menu-ikon"></a>
+	<ul>
+      <li><a href="#" class="hjem">Hjem</a></li>
+	  <li><a href="produkter.html" class="produkt">Produkter</a></li>
+	  <li><a href="omos.html" class="om">Om os</a></li>
+	  <li><a href="#" class="kontakt">Kontakt</a></li>
+	</ul>
+	</nav>
+	
+<h3>Kontakt os her</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Navn:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Dit fulde navn..">
+
+    <label for="lname">Email:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Din Email..">
+
+    <label for="subject">Besked</label>
+    <textarea id="subject" name="subject" placeholder="Din besked.." style="height:200px"></textarea>
+
+    <input type="submit" value="Send">
+  </form>
+  </div>
+	</header>
+	
+	<footer class="second">
+	<p>&copy;Copyright - Sweetbot, 2017</p>
+	</footer>
+</body> 
+</html> 
